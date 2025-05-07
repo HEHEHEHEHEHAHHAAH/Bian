@@ -1,0 +1,45 @@
+/* General body styling with background for Armin theme */
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('https://mrwallpaper.com/images/high/attack-on-titan-armin-arlert-fou51nxi9byt1anx.webp'); /* Replace with Armin's themed background */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #333;
+    text-align: center;
+    padding: 50px;
+    height: 100vh; /* Full viewport height */
+    margin: 0;
+}
+
+/* Heading styling */
+h1, h2 {
+    color: #fff;
+    font-size: 36px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+/* Section styling */
+section {
+    margin: 20px 0;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent background */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Button styling */
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 15px 32px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
